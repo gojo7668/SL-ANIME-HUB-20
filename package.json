@@ -3,7 +3,7 @@
 "version": "1.0.0",
 "scripts": {
 "start": "pm2 start index.js --deep-monitoring --attach --name SL-ANIMEHUB",
-"stop": "pm2 stop Movie-Visper",
+"stop": "pm2 stop SL-ANIMEHUB",
 "restart": "git pull && npm stop && npm start",
 "stash": "git stash && git stash drop"
 },
