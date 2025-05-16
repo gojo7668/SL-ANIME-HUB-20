@@ -1,15 +1,15 @@
 {
-"name": "MOVIE-VISPER MD",    
-"version": "1.0.0",
-"scripts": {
-"start": "pm2 start index.js --deep-monitoring --attach --name Movie-Visper",
-"stop": "pm2 stop Movie-Visper",
-"restart": "git pull && npm stop && npm start",
-"stash": "git stash && git stash drop"
-},
-"dependencies": {
-
-"@whiskeysockets/baileys":"latest",
+"name": "gojo-web-pair",
+    "version": "0.0.1",
+    "description": "A multi functional whatsapp bot Web paircode.",
+    "main": "index.js",
+    "scripts": {
+      "start": "pm2 start index.js --deep-monitoring --attach --name gojo",
+      "stop": "pm2 stop gojo",
+     "restart": "pm2 restart gojo"
+    },
+  "dependencies": {
+    "@whiskeysockets/baileys": "latest",
 "@adiwajshing/keyed-db": "latest",
 "pino": "latest",
 "pm2": "latest",
