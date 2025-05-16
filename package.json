@@ -4,12 +4,12 @@
     "description": "A multi functional whatsapp bot Web paircode.",
     "main": "index.js",
     "scripts": {
-      "start": "pm2 start index.js --deep-monitoring --attach --name vajira-md",
-      "stop": "pm2 stop vajira-md",
-     "restart": "pm2 restart vajira-md"
+      "start": "pm2 start index.js --deep-monitoring --attach --name asitha-md",
+      "stop": "pm2 stop asitha-md",
+     "restart": "pm2 restart asitha-md"
     },
   "dependencies": {
-    "@whiskeysockets/baileys": "6.6.0",              
+    "@whiskeysockets/baileys": "github:WhiskeySockets/Baileys",             
     "@adiwajshing/keyed-db": "latest",
     "pino": "latest",
     "pm2": "latest",
