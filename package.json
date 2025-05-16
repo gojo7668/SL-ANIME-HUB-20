@@ -9,7 +9,7 @@
 },
 "dependencies": {
 
-"@whiskeysockets/baileys":"github:WhiskeySockets/Baileys"
+"@whiskeysockets/baileys":"latest",
 "@adiwajshing/keyed-db": "latest",
 "pino": "latest",
 "pm2": "latest",
