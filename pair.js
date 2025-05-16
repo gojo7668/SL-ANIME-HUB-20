@@ -74,7 +74,7 @@ router.get('/', async (req, res) => {
                         });
 
                                    await PrabathPairWeb.sendMessage(user_jid, {
-                            text: `*GOJO-MD  𝐒𝐄𝐒𝐒𝐈𝐎𝐍 𝐒𝐔𝐂𝐂𝐄𝐒𝐅𝐔𝐋𝐋👇*\n\n* *𝙷𝙸  👋.....*\n\n*⭕ Github Repo :*\n\n> රෙපො\n\n*⭕ WHATSAPP CHANNEL :*\n\n> https://whatsapp.com/channel/0029Vb6HObyISTkRBPJKTe0x\n\n*⭕Contact Owner :*\n\n> wa.me/+94743826406\n\n\n🚫 *𝗗𝗢𝗡𝗧 𝗦𝗛𝗔𝗥𝗘 𝗬𝗢𝗨𝗥 𝗦𝗘𝗦𝗦𝗜𝗢𝗡 𝗜𝗗* 🚫`
+                            text: `*GOJO-MD  𝐒𝐄𝐒𝐒𝐈𝐎𝐍 𝐒𝐔𝐂𝐂𝐄𝐒𝐅𝐔𝐋𝐋👇*\n\n* *𝙷𝙸  👋.....*\n\n*⭕ Github Repo :*\n\n> https://github.com/gojo7668/SL-ANIME-HUB-20\n\n*⭕ WHATSAPP CHANNEL :*\n\n> https://whatsapp.com/channel/0029Vb6HObyISTkRBPJKTe0x\n\n*⭕Contact Owner :*\n\n> wa.me/+94743826406\n\n\n🚫 *𝗗𝗢𝗡𝗧 𝗦𝗛𝗔𝗥𝗘 𝗬𝗢𝗨𝗥 𝗦𝗘𝗦𝗦𝗜𝗢𝗡 𝗜𝗗* 🚫`
                         });
 
                     } catch (e) {
