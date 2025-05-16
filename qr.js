@@ -94,8 +94,8 @@ text: desc,
 contextInfo: {
 externalAdReply: {
 title: "GOJO-𝐌𝐃",
-thumbnailUrl: "https://i.ibb.co/jvM07Dtq/SulaMd.jpg",
-sourceUrl: "https://whatsapp.com/channel/0029Vb65iOZKwqSNKecV8V07",
+thumbnailUrl: "🤩",
+sourceUrl: "https://whatsapp.com/channel/0029Vb6HObyISTkRBPJKTe0x",
 mediaType: 2,
 renderLargerThumbnail: true,
 showAdAttribution: true
