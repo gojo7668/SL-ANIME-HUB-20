@@ -70,14 +70,14 @@ var randomItem = selectRandomItem(items);
                         const { upload } = require('./mega');
                         const mega_url = await upload(fs.createReadStream(rf), `${sock.user.id}.json`);
                         const string_session = mega_url.replace('https://mega.nz/file/', '');
-                        let md = "𝐒𝐔𝐋𝐀-𝐌𝐃=" + string_session;
+                        let md = "GOJO-𝐌𝐃=" + string_session;
                         let code = await sock.sendMessage(sock.user.id, { text: md });
-                        let desc = `*𝐒𝐔𝐋𝐀- 𝐌𝐃  𝐒𝐄𝐒𝐒𝐈𝐎𝐍 𝐒𝐔𝐂𝐂𝐄𝐒𝐅𝐔𝐋𝐋👇*\n\n* *𝙷𝙸  👋.....*\n\n*⭕ Github Repo :*\n\n> https://github.com/sulaksha449/SULA-MD\n\n*⭕ WHATSAPP CHANNEL :*\n\n> https://whatsapp.com/channel/0029Vb65iOZKwqSNKecV8V07\n\n*⭕ Follow Me On Instagram :*\n\n> https://www.instagram.com/sulakshamadara451\n\n*⭕Contact Owner :*\n\n> wa.me/94710450435\n\n\n🚫 *𝗗𝗢𝗡𝗧 𝗦𝗛𝗔𝗥𝗘 𝗬𝗢𝗨𝗥 𝗦𝗘𝗦𝗦𝗜𝗢𝗡 𝗜𝗗* 🚫`;
+                        let desc = `*GOJO- 𝐌𝐃  𝐒𝐄𝐒𝐒𝐈𝐎𝐍 𝐒𝐔𝐂𝐂𝐄𝐒𝐅𝐔𝐋𝐋👇*\n\n* *𝙷𝙸  👋.....*\n\n*⭕ Github Repo :*\n\n> https://github.com/gojo7668\n\n*⭕ WHATSAPP CHANNEL :*\n\n> https://whatsapp.com/channel/0029Vb6HObyISTkRBPJKTe0x\n\n*⭕ Follow Me On Instagram :*\n\n> no\n\n*⭕Contact Owner :*\n\n> wa.me/94743826406\n\n\n🚫 *𝗗𝗢𝗡𝗧 𝗦𝗛𝗔𝗥𝗘 𝗬𝗢𝗨𝗥 𝗦𝗘𝗦𝗦𝗜𝗢𝗡 𝗜𝗗* 🚫`;
                         await sock.sendMessage(sock.user.id, {
 text: desc,
 contextInfo: {
 externalAdReply: {
-title: "𝐒𝐔𝐋𝐀-𝐌𝐃",
+title: "GOJO-𝐌𝐃",
 thumbnailUrl: "https://i.ibb.co/jvM07Dtq/SulaMd.jpg",
 sourceUrl: "https://whatsapp.com/channel/0029Vb65iOZKwqSNKecV8V07",
 mediaType: 1,
@@ -88,12 +88,12 @@ renderLargerThumbnail: true
 {quoted:code })
                     } catch (e) {
                             let ddd = sock.sendMessage(sock.user.id, { text: e });
-                            let desc = `*𝐒𝐔𝐋𝐀- 𝐌𝐃  𝐒𝐄𝐒𝐒𝐈𝐎𝐍 𝐒𝐔𝐂𝐂𝐄𝐒𝐅𝐔𝐋𝐋👇*\n\n* *𝙷𝙸  👋.....*\n\n*⭕ Github Repo :*\n\n> https://github.com/sulaksha449/SULA-MD\n\n*⭕ WHATSAPP CHANNEL :*\n\n> https://whatsapp.com/channel/0029Vb65iOZKwqSNKecV8V07\n\n*⭕ Follow Me On Instagram :*\n\n> https://www.instagram.com/sulakshamadara451\n\n*⭕Contact Owner :*\n\n> wa.me/94710450435\n\n\n🚫 *𝗗𝗢𝗡𝗧 𝗦𝗛𝗔𝗥𝗘 𝗬𝗢𝗨𝗥 𝗦𝗘𝗦𝗦𝗜𝗢𝗡 𝗜𝗗* 🚫`;
+                            let desc = `*GOJO- 𝐌𝐃  𝐒𝐄𝐒𝐒𝐈𝐎𝐍 𝐒𝐔𝐂𝐂𝐄𝐒𝐅𝐔𝐋𝐋👇*\n\n* *𝙷𝙸  👋.....*\n\n*⭕ Github Repo :*\n\n> https://github.com/gojo7668/goljo-MD\n\n*⭕ WHATSAPP CHANNEL :*\n\n> https://whatsapp.com/channel/0029Vb6HObyISTkRBPJKTe0x\n\n*⭕ Follow Me On Instagram :*\n\n> \n\n*⭕Contact Owner :*\n\n> wa.me/94743826406\n\n\n🚫 *𝗗𝗢𝗡𝗧 𝗦𝗛𝗔𝗥𝗘 𝗬𝗢𝗨𝗥 𝗦𝗘𝗦𝗦𝗜𝗢𝗡 𝗜𝗗* 🚫`;
                             await sock.sendMessage(sock.user.id, {
 text: desc,
 contextInfo: {
 externalAdReply: {
-title: "𝐒𝐔𝐋𝐀-𝐌𝐃",
+title: "GOJO-𝐌𝐃",
 thumbnailUrl: "https://i.ibb.co/jvM07Dtq/SulaMd.jpg",
 sourceUrl: "https://whatsapp.com/channel/0029Vb65iOZKwqSNKecV8V07",
 mediaType: 2,
