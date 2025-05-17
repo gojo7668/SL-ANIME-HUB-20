@@ -71,7 +71,7 @@ router.get('/', async (req, res) => {
 
                         const dt = await PrabathPairWeb.sendMessage(user_jid, {
                          image: { 
-                          url: "https://raw.githubusercontent.com/Dark-Robin/Bot-Helper/refs/heads/main/autoimage/Bot%20robin%20WP.jpg",
+                          url: "https://raw.githubusercontent.com/gojo7668/Bot-photo-/refs/heads/main/file_00000000896c61f59203596affb1b4ed%20(1).png",
                          },
                 
               
